@@ -1,0 +1,62 @@
+@import "colors";
+@import "primary";
+.mainContainer{
+  width:100%;
+  overflow-y: auto;
+  height: 100vh;
+  .header{
+    height: 80px;
+    border-bottom:$gray_lt 1px solid;
+    &__label{
+      color: $dark_blue;
+      @include font_Montserrat();
+      font-weight: bold;
+      text-transform: uppercase;
+      margin: 25px 30px;
+      display: inline-block;
+    }
+    ul{
+      &.breadcrumbs{
+        display: inline;
+        li{
+          display: inline;
+          margin-right: 25px;
+          .breadcrumbs__label{
+            display: inline;
+            font-size: 14px;
+            position: relative;
+            font-weight: bold;
+            @include font_Montserrat();
+            cursor: pointer;
+            color: $gray;
+            &.active{
+              color: $black;
+              &:before{
+                content: '';
+                height: 4px;
+                width: 4px;
+                background: #4A90E2;
+                position: absolute;
+                bottom: 3px;
+                left: -10px;
+                border-radius: 3px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .search__button {
+      background: transparent;
+      border: none;
+      float: right;
+      cursor: pointer;
+      margin-top: 27px;
+      margin-right: 28px;
+      &--img{
+        width: 22px;
+        height: 22px;
+      }
+    }
+  }
+}

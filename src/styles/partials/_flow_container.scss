@@ -1,0 +1,101 @@
+@import "colors";
+@import "primary";
+
+.flow__container{
+  padding: 0px 50px;
+  &--headings{
+    display: flex;
+    justify-content: space-between;
+    margin:40px 0px 20px 0px;
+    &--label{
+      color: $gray_heading;
+      @include font_Montserrat();
+      font-size: 16px;
+      font-weight: 600;
+      margin: 0px;
+    }
+    &--train{
+      margin: 0px;
+      color: $blue;
+      @include font_Montserrat();
+      font-size: 14px;
+      font-weight: 600;
+      display: inline;
+    }
+    &--linkCont{
+      &--icon {
+        display: inline;
+        vertical-align: bottom;
+      }
+    }
+  }
+  &--cards{
+    display: flex;
+    .flow__card{
+      margin-right: 20px;
+      box-shadow: rgba(43, 59, 93, 0.29) 0px 1px 3px;
+      display: inline-block;
+      width: 175px;
+      padding: 10px 15px;
+      height: 95px;
+      border-radius: 2px;
+      position: relative;
+      &--lastupdated{
+        font-size: 10px;
+        @include font_Montserrat();
+        color: $label;
+        text-align: right;
+        margin:0px;
+      }
+      &--caption{
+        font-size: 12px;
+        @include font_Montserrat();
+        color: $gray_caption;
+        font-weight: 600;
+        margin-top: 11px;
+      }
+      &--img {
+        width: 28px;
+        height: 28px;
+        float: right;
+        position: absolute;
+        bottom: 10px;
+        right: 13px;
+      }
+    }
+
+  }
+  &--table{
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      padding: 0.25rem;
+      text-align: left;
+      border-bottom: 1px solid $list_border;
+      .flow{
+        &--status{
+          color: $font_list;
+          font-size: 13px;
+          @include font_Montserrat();
+          display: inline-block;
+        }
+        &--img{
+          width:28px;
+          height: 28px;
+          &--edit{
+            width: 16px;
+            height: 16px;
+          }
+        }
+        &--updated{
+          color: $label;
+          @include font_Montserrat();
+          font-size: 10px;
+          text-align: right;
+        }
+      }
+    }
+  }
+}

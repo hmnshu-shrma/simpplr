@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700');
+
+@mixin font_Montserrat(){
+	font-family: 'Montserrat', sans-serif;
+}
+body{
+@include font_Montserrat();
+	 .container{
+		 display: flex;
+	 }
+}
+.ver-algn-middle{
+	vertical-align: middle!important;
+}
