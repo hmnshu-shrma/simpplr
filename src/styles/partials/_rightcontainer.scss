@@ -1,0 +1,60 @@
+@import './colors';
+@import './primary';
+
+.search{
+  &__location {
+    padding: 0px 15px;
+.viewAll{
+  color: $green;
+  font-size: 13px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+    &--heading {
+      margin: 0px;
+      font-weight: 400;
+      font-size: 15px;
+      color: $color_active;
+      padding-bottom:5px;
+      @include borderbottom();
+    }
+  }
+  &__listings{
+    display: flex;
+    margin-top: 10px;
+    p{
+      margin:0px;
+      display: block;
+      span{
+        color: $green;
+      }
+    }
+    .search{
+      &__img{
+        &--icon{
+          width: 40px;
+          height: 40px;
+          &.fa{
+            font-size: 2.75em;
+            color: $green;
+          }
+        }
+      }
+      &__description{
+        padding: 5px 5px 5px 15px;
+        width: 100%;
+         &--label{
+          color: $color_active;
+          font-size: 13px;
+          text-transform: capitalize;
+        }
+        &--narrations{
+          color: $color_deactive;
+          font-size: 13px;
+          text-transform: capitalize;
+          margin-top: 2px;
+        }
+      }
+    }
+  }
+}

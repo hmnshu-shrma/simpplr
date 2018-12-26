@@ -1,0 +1,77 @@
+@import './colors';
+@import './primary';
+.row__result{
+  display: flex;
+  @include borderbottom();
+  padding: 15px 0px;
+  .result{
+    &__img{
+      img{
+        width:60px;
+        &.person{
+          border-radius: 50%;
+        }
+      }
+    }
+    &__content{
+      .anchorlinks{
+        text-decoration: none;
+        color: none;
+      }
+      padding:0px 15px;
+      p{
+        margin:0px;
+        @include font_Arial();
+
+        span{
+          color: $green;
+        }
+      }
+      &--type{
+        font-size: 11px;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding-bottom: 3px;
+        color:$color_deactive;
+        span{
+          text-transform: uppercase;
+        }
+      }
+      &--title{
+        font-size: 16px;
+        text-transform: capitalize;
+        padding-bottom: 3px;
+        color: $color_active;
+      }
+      &--desc {
+        font-size: 14px;
+        color: $color_active;
+      }
+      &--location,&--author {
+        font-size: 13px;
+        color: #8a8a8a;
+        text-transform: capitalize;
+      }
+      &--author{
+
+      }
+      &--desg{
+        font-size: 14px;
+        text-transform: capitalize;
+        color: $color_active;
+
+      }
+      &--phone{
+        padding-top: 15px;
+      }
+      &--phone,&--email {
+        font-size: 14px;
+        color: $green;
+        padding-bottom:5px;
+        .fa{
+          color: #8a8a8a;
+        }
+      }
+    }
+  }
+}
