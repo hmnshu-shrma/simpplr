@@ -1,5 +1,5 @@
 {
-  "name": "webpack-starter",
+  "name": "MSGAI",
   "version": "1.0.0",
   "description": "A light foundation for your next frontend project based on webpack.",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wbkd/webpack-starter.git"
+    "url": "git+git@bitbucket.org:hmnshu/simpplr.git"
   },
   "keywords": [
     "webpack",
@@ -18,10 +18,10 @@
     "javascript",
     "webdev"
   ],
-  "author": "webkid.io",
+  "author": "hmnshu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wbkd/webpack-starter/issues"
+    "url": "git@bitbucket.org:hmnshu/simpplr.git"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",

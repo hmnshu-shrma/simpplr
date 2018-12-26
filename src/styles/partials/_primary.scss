@@ -1,15 +1,39 @@
-
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700');
-
-@mixin font_Montserrat(){
-	font-family: 'Montserrat', sans-serif;
+@font-face {
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://fonts.gstatic.com/l/font?kit=RWmIoKuX9vIkqNeNELieQ4SjwM1wzs8&skey=a8a8f8aee29deec0&v=v4) format('woff2');
+}
+@mixin font_Arial(){
+	font-family: 'Arial', sans-serif;
 }
 body{
-@include font_Montserrat();
-	 .container{
-		 display: flex;
-	 }
+	padding: 0px;
+	margin: 0px;
+	@include font_Arial();
+	.ver-algn-middle{
+		vertical-align: middle!important;
+	}
+	.horizontal--list{
+		display: flex;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		li{
+			display: block;
+			flex: 0 1 auto;
+			list-style-type: none;
+		}
+	}
 }
-.ver-algn-middle{
-	vertical-align: middle!important;
+
+
+.truncate {
+	width: 50vw;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	&.txt--sm{
+		width: 80%;
+	}
 }

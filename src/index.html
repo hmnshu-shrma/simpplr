@@ -1,261 +1,537 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>webpack starterkit</title>
+  <title>Simpplr.</title>
+  <link rel="icon" href="https://www.google.co.in/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjFj6SrzJPfAhUMMo8KHZIHAoUQjRx6BAgBEAU&url=https%3A%2F%2Fcompassdrone.com%2Fagriculture-drones-farm-progress-show%2Fblue-drone-icon-sm-2%2F&psig=AOvVaw1Blu_SdqNtw5tFIQxPJVQA&ust=1544473984037302" type="image/png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href='./css/main.css' rel='stylesheet' />
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
 </head>
 <body>
+  <section class="main__container ">
+    <!-- top container starts  -->
+    <div class="top__container">
+      <p class="search__label">
+        Searched for : test
+      </p>
+      <ul class="search__categories horizontal--list">
+        <li class="search__categories--links">
+          <p class="search__categories--links--text active">
+            top
+          </p>
+        </li>
+        <li class="search__categories--links">
+          <p class="search__categories--links--text">
+            Sites
+          </p>
+        </li>
+        <li class="search__categories--links">
+          <p class="search__categories--links--text">
+            content
+          </p>
+        </li>
+        <li class="search__categories--links">
+          <p class="search__categories--links--text">
+            people
+          </p>
+        </li>
+        <li class="search__categories--links">
+          <p class="search__categories--links--text">
+            Intranet Files
+          </p>
+        </li>
+        <li class="search__categories--links">
+          <p class="search__categories--links--text">
+            google drive files
+          </p>
+        </li>
+        <li class="search__categories--links">
+          <p class="search__categories--links--text">
+            feed
+          </p>
+        </li>
+      </ul>
+    </div>
+    <!-- top container ends -->
+    <div class="results__container" id="myHeader">
+      <div class="results__container--left">
 
-  <div class="container">
-    <!-- left nav bar -->
-    <div class="leftNavBar">
-      <div class="logo">
-        <img src="./public/assets/13.svg" class="logo--img"  alt="">
+        <div class="row__result">
+          <div class="result__img">
+            <img src="http://placehold.it/200x200" class="result_img"  alt="">
+          </div>
+          <div class="result__content">
+            <p class="result__content--type">
+              Site
+            </p>
+            <p class="result__content--title">
+              Lorem ipsum.
+            </p>
+            <p class="result__content--desc">
+              Lorem ipsum dolor sit amet,
+            </p>
+          </div>
+        </div>
+
+        <div class="row__result">
+          <div class="result__img">
+            <img src="http://placehold.it/200x200" class="result_img"  alt="">
+          </div>
+          <div class="result__content">
+            <p class="result__content--type">
+              blogpost
+            </p>
+            <p class="result__content--title">
+              News Article
+            </p>
+            <p class="result__content--desc truncate">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <p class="result__content--author">
+              By , <span> Himanshu Sharma</span> on Aug 2015
+            </p>
+
+          </div>
+        </div>
+
+        <div class="row__result">
+          <div class="result__img">
+            <img src="http://placehold.it/200x200" class="result_img person"  alt="">
+          </div>
+          <div class="result__content">
+            <p class="result__content--type">
+              Person <span> Expertise watch</span>
+            </p>
+            <p class="result__content--title">
+              Himanshu Sharma
+            </p>
+            <p class="result__content--desg">
+              Lorem ipsum dolor sit amet,
+            </p>
+            <p class="result__content--location">
+              Lorem ipsum dolor sit amet,
+            </p>
+          </div>
+          <div class="result__content">
+            <a href="tel:09711344334" class="anchorlinks">
+              <p class="result__content--phone">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                Lorem ipsum.
+              </p>
+            </a>
+            <a href="mailto:hmnshu2690@gmail.com" class="anchorlinks">
+              <p class="result__content--email">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                hmnshu2690@gmail.com
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class="row__result">
+          <div class="result__img">
+            <img src="http://placehold.it/200x200" class="result_img person"  alt="">
+          </div>
+          <div class="result__content">
+            <p class="result__content--type">
+              Person
+            </p>
+            <p class="result__content--title">
+              Himanshu Sharma
+            </p>
+            <p class="result__content--desg">
+              Lorem ipsum dolor sit amet,
+            </p>
+            <p class="result__content--location">
+              Lorem ipsum dolor sit amet,
+            </p>
+          </div>
+          <div class="result__content">
+            <a href="tel:09711344334" class="anchorlinks">
+              <p class="result__content--phone">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                Lorem ipsum.
+              </p>
+            </a>
+            <a href="mailto:hmnshu2690@gmail.com" class="anchorlinks">
+              <p class="result__content--email">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                hmnshu2690@gmail.com
+              </p>
+            </a>
+          </div>
+        </div>
+
+        <div class="row__result">
+          <div class="result__img">
+            <img src="http://placehold.it/200x200" class="result_img"  alt="">
+          </div>
+          <div class="result__content">
+            <p class="result__content--type">
+              blogpost
+            </p>
+            <p class="result__content--title">
+              News Article
+            </p>
+            <p class="result__content--desc truncate">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <p class="result__content--author">
+              By , <span> Himanshu Sharma</span> on Aug 2015
+            </p>
+
+          </div>
+        </div>
+
+        <div class="row__result">
+          <div class="result__img">
+            <img src="http://placehold.it/200x200" class="result_img"  alt="">
+          </div>
+          <div class="result__content">
+            <p class="result__content--type">
+              blogpost
+            </p>
+            <p class="result__content--title">
+              News Article
+            </p>
+            <p class="result__content--desc truncate">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <p class="result__content--author">
+              By , <span> Himanshu Sharma</span> on Aug 2015
+            </p>
+
+          </div>
+        </div>
+
+        <div class="row__result">
+          <div class="result__img">
+            <img src="http://placehold.it/200x200" class="result_img"  alt="">
+          </div>
+          <div class="result__content">
+            <p class="result__content--type">
+              blogpost
+            </p>
+            <p class="result__content--title">
+              News Article
+            </p>
+            <p class="result__content--desc truncate">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <p class="result__content--author">
+              By , <span> Himanshu Sharma</span> on Aug 2015
+            </p>
+
+          </div>
+        </div>
+        <div class="row__result">
+          <div class="result__img">
+            <img src="http://placehold.it/200x200" class="result_img"  alt="">
+          </div>
+          <div class="result__content">
+            <p class="result__content--type">
+              Site
+            </p>
+            <p class="result__content--title">
+              Lorem ipsum.
+            </p>
+            <p class="result__content--desc">
+              Lorem ipsum dolor sit amet,
+            </p>
+          </div>
+        </div>
+        <div class="row__result">
+          <div class="result__img">
+            <img src="http://placehold.it/200x200" class="result_img"  alt="">
+          </div>
+          <div class="result__content">
+            <p class="result__content--type">
+              Site
+            </p>
+            <p class="result__content--title">
+              Lorem ipsum.
+            </p>
+            <p class="result__content--desc">
+              Lorem ipsum dolor sit amet,
+            </p>
+          </div>
+        </div>
+        <div class="row__result">
+          <div class="result__img">
+            <img src="http://placehold.it/200x200" class="result_img"  alt="">
+          </div>
+          <div class="result__content">
+            <p class="result__content--type">
+              Site
+            </p>
+            <p class="result__content--title">
+              Lorem ipsum.
+            </p>
+            <p class="result__content--desc">
+              Lorem ipsum dolor sit amet,
+            </p>
+          </div>
+        </div>
+        <div class="row__result">
+          <div class="result__img">
+            <img src="http://placehold.it/200x200" class="result_img"  alt="">
+          </div>
+          <div class="result__content">
+            <p class="result__content--type">
+              Site
+            </p>
+            <p class="result__content--title">
+              Lorem ipsum.
+            </p>
+            <p class="result__content--desc">
+              Lorem ipsum dolor sit amet,
+            </p>
+          </div>
+        </div>
+
+        <div class="row__result">
+          <div class="result__img">
+            <img src="http://placehold.it/200x200" class="result_img"  alt="">
+          </div>
+          <div class="result__content">
+            <p class="result__content--type">
+              blogpost
+            </p>
+            <p class="result__content--title">
+              News Article
+            </p>
+            <p class="result__content--desc truncate">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <p class="result__content--author">
+              By , <span> Himanshu Sharma</span> on Aug 2015
+            </p>
+
+          </div>
+        </div>
+        <div class="row__result">
+          <div class="result__img">
+            <img src="http://placehold.it/200x200" class="result_img person"  alt="">
+          </div>
+          <div class="result__content">
+            <p class="result__content--type">
+              Person
+            </p>
+            <p class="result__content--title">
+              Himanshu Sharma
+            </p>
+            <p class="result__content--desg">
+              Lorem ipsum dolor sit amet,
+            </p>
+            <p class="result__content--location">
+              Lorem ipsum dolor sit amet,
+            </p>
+          </div>
+          <div class="result__content">
+            <a href="tel:09711344334" class="anchorlinks">
+              <p class="result__content--phone">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                Lorem ipsum.
+              </p>
+            </a>
+            <a href="mailto:hmnshu2690@gmail.com" class="anchorlinks">
+              <p class="result__content--email">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                hmnshu2690@gmail.com
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class="row__result">
+          <div class="result__img">
+            <img src="http://placehold.it/200x200" class="result_img person"  alt="">
+          </div>
+          <div class="result__content">
+            <p class="result__content--type">
+              Person
+            </p>
+            <p class="result__content--title">
+              Himanshu Sharma
+            </p>
+            <p class="result__content--desg">
+              Lorem ipsum dolor sit amet,
+            </p>
+            <p class="result__content--location">
+              Lorem ipsum dolor sit amet,
+            </p>
+          </div>
+          <div class="result__content">
+            <a href="tel:09711344334" class="anchorlinks">
+              <p class="result__content--phone">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                Lorem ipsum.
+              </p>
+            </a>
+            <a href="mailto:hmnshu2690@gmail.com" class="anchorlinks">
+              <p class="result__content--email">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                hmnshu2690@gmail.com
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class="row__result">
+          <div class="result__img">
+            <img src="http://placehold.it/200x200" class="result_img"  alt="">
+          </div>
+          <div class="result__content">
+            <p class="result__content--type">
+              blogpost
+            </p>
+            <p class="result__content--title">
+              News Article
+            </p>
+            <p class="result__content--desc truncate">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <p class="result__content--author">
+              By , <span> Himanshu Sharma</span> on Aug 2015
+            </p>
+
+          </div>
+        </div>
+
+
       </div>
-      <div class="nav__container">
-        <ul class="nav__list">
-          <li class="nav__list--item">
-            <img src="./public/assets/1.svg" class="nav__list--item--icon" alt="">
-          </li>
-          <li class="nav__list--item">
-            <img src="./public/assets/3.svg" class="nav__list--item--icon" alt="">
-          </li>
-          <li class="nav__list--item active">
-            <img src="./public/assets/9.svg" class="nav__list--item--icon" alt="">
-          </li>
-          <li class="nav__list--item">
-            <img src="./public/assets/2.svg" class="nav__list--item--icon" alt="">
-          </li>
-          <li class="nav__list--item">
-            <img src="./public/assets/15.svg" class="nav__list--item--icon" alt="">
-          </li>
-          <li class="nav__list--item">
-            <img src="./public/assets/10.svg" class="nav__list--item--icon" alt="">
-          </li>
-        </ul>
 
+      <div class="results__container--right">
+        <div class="search__location">
+          <h3 class="search__location--heading">
+            Intranet Files(111)
+          </h3>
+
+          <div class="search__listings directory">
+            <div class="search__img">
+              <i class="fa fa-folder search__img--icon" aria-hidden="true"></i>
+            </div>
+            <div class="search__description">
+              <p class="search__description--label">
+                Sales
+              </p>
+              <p class="search__description--narrations">
+                in <span> Sales </span>
+              </p>
+            </div>
+          </div>
+          <div class="search__listings">
+            <div class="search__img">
+              <img src="http://placehold.it/200x200" class="search__img--icon" />
+            </div>
+            <div class="search__description">
+              <p class="search__description--label truncate txt--sm ">
+                Seasonal-Revenue.xsl
+              </p>
+              <p class="search__description--narrations">
+                in <span> sales </span>
+              </p>
+            </div>
+          </div>
+          <div class="search__listings">
+            <div class="search__img">
+              <img src="http://placehold.it/200x200" class="search__img--icon" />
+            </div>
+            <div class="search__description">
+              <p class="search__description--label  truncate txt--sm">
+                logo.png
+              </p>
+              <p class="search__description--narrations">
+                in <span> Branding </span>
+              </p>
+            </div>
+          </div>
+          <div class="search__listings">
+            <div class="search__img">
+              <img src="http://placehold.it/200x200" class="search__img--icon" />
+            </div>
+            <div class="search__description">
+              <p class="search__description--label truncate txt--sm ">
+                Marketing_opportunities_in_germany_
+              </p>
+              <p class="search__description--narrations">
+                in <span> Branding </span>
+              </p>
+            </div>
+          </div>
+          <p class="viewAll">
+            view all Intranet files
+          </p>
+        </div>
+        <div class="search__location">
+          <h3 class="search__location--heading">
+            Google drive files(400)
+          </h3>
+
+          <div class="search__listings directory">
+            <div class="search__img">
+              <i class="fa fa-folder search__img--icon" aria-hidden="true"></i>
+            </div>
+            <div class="search__description">
+              <p class="search__description--label truncate txt--sm">
+                Sales
+              </p>
+              <p class="search__description--narrations">
+                in <span> Sales </span>
+              </p>
+            </div>
+          </div>
+          <div class="search__listings">
+            <div class="search__img">
+              <img src="http://placehold.it/200x200" class="search__img--icon" />
+            </div>
+            <div class="search__description">
+              <p class="search__description--label  truncate txt--sm">
+                Seasonal-Revenue.xsl
+              </p>
+              <p class="search__description--narrations">
+                in <span> sales </span>
+              </p>
+            </div>
+          </div>
+          <div class="search__listings">
+            <div class="search__img">
+              <img src="http://placehold.it/200x200" class="search__img--icon" />
+            </div>
+            <div class="search__description">
+              <p class="search__description--label truncate txt--sm">
+                logo.png
+              </p>
+              <p class="search__description--narrations">
+                in <span> Branding </span>
+              </p>
+            </div>
+          </div>
+          <div class="search__listings">
+            <div class="search__img">
+              <img src="http://placehold.it/200x200" class="search__img--icon" />
+            </div>
+            <div class="search__description">
+              <p class="search__description--label truncate txt--sm">
+                Marketing_opportunities_in_germany_
+              </p>
+              <p class="search__description--narrations">
+                in <span> Branding </span>
+              </p>
+            </div>
+          </div>
+
+          <p class="viewAll">
+            view all google drive files
+          </p>
+        </div>
       </div>
     </div>
-    <!-- leftNavBar ends -->
-    <!-- data container -->
-    <div class="mainContainer">
-      <!-- header -->
-      <header class="header">
-        <h2 class="header__label">
-          Training
-        </h2>
-
-        <ul class="breadcrumbs">
-          <li>
-            <p class="breadcrumbs__label active">
-              SKILLS
-            </p>
-          </li>
-          <li>
-            <p class="breadcrumbs__label">
-              ENTITIES
-            </p>
-          </li>
-        </ul>
-        <button class="search__button">
-          <img src="./public/assets/14.svg" class="search__button--img" alt="">
-        </button>
-      </header>
-      <!-- header ends -->
-      <!-- flow -->
-      <div class="flow__container">
-        <!-- headings -->
-        <div class="flow__container--headings">
-          <p class="flow__container--headings--label">
-            FLOWS
-          </p>
-          <div class="flow__container--headings--linkCont">
-            <img src="./public/assets/11.svg" class="flow__container--headings--linkCont--icon" alt="">
-            <p class="flow__container--headings--train">
-              TRAIN FLOW
-            </p>
-          </div>
-        </div>
-        <!-- headings -->
-        <div class="flow__container--cards">
-          <div class="flow__card">
-            <p class="flow__card--lastupdated">
-              Updated on 5 June 2018
-            </p>
-            <p class="flow__card--caption">
-              TERMINAL ENQUIRY
-            </p>
-            <img
-            src="./public/assets/7.svg"
-            class="flow__card--img"
-            alt="">
-          </div>
-          <div class="flow__card">
-            <p class="flow__card--lastupdated">
-              Updated on 5 June 2018
-            </p>
-            <p class="flow__card--caption">
-              BOARDING PASS INFO AND COLLECTION
-            </p>
-            <img
-            src="./public/assets/7.svg"
-            class="flow__card--img"
-            alt="">
-          </div>
-        </div>
-        <!-- headings -->
-        <div class="flow__container--headings">
-          <p class="flow__container--headings--label">
-            Q&As
-          </p>
-          <div class="flow__container--headings--linkCont">
-            <img src="./public/assets/5.svg" class="flow__container--headings--linkCont--icon" alt="">
-            <p class="flow__container--headings--train">
-              TRAIN Q&A
-            </p>
-            <img src="./public/assets/4.svg" class="flow__container--headings--linkCont--icon ver-algn-middle" alt="">
-          </div>
-
-        </div>
-
-        <div class="flow__container--table">
-          <table class="flow__container--table--items">
-            <tbody>
-              <tr>
-                <td>
-                  <p class="flow--status">
-                    What is considered Oversized?
-                  </p>
-                </td>
-                <td>
-                  <img src="./public/assets/7.svg" class="flow--img" alt="">
-                </td>
-                <td>
-                  <p class="flow--updated">
-                    Updated on 5 June 2018
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <p class="flow--status">
-                    Where should I look for live information that I need about the departure and arrival of my flight?
-                  </p>
-                  <img src="./public/assets/12.svg" class="flow--img--edit ver-algn-middle" alt="">
-                </td>
-                <td>
-
-                </td>
-                <td>
-                  <p class="flow--updated">
-                    Updated on 5 June 2018
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <p class="flow--status">
-                    Can I pre-reserve a seat on an Econo flight?
-                  </p>
-                </td>
-                <td>
-
-                </td>
-                <td>
-                  <p class="flow--updated">
-                    Updated on 5 June 2018
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <p class="flow--status">
-                    What’s the way to update a friend about the status of my flight?
-                    <img src="./public/assets/12.svg" class="flow--img--edit ver-algn-middle" alt="">
-                  </p>
-                </td>
-                <td>
-                  <img src="./public/assets/6.svg" class="flow--img" alt="">
-                </td>
-                <td>
-                  <p class="flow--updated">
-                    Updated on 5 June 2018
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <p class="flow--status">
-                    How do I view the status of flight on a partner airline?
-                  </p>
-                </td>
-                <td>
-
-                </td>
-                <td>
-                  <p class="flow--updated">
-                    Created on 5 May 2018
-                  </p>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p class="flow--status">
-                  What is considered Oversized?
-                  <img src="./public/assets/12.svg" class="flow--img--edit ver-algn-middle" alt="">
-                </p>
-              </td>
-              <td>
-                <img src="./public/assets/7.svg"  class="flow--img" alt="">
-              </td>
-              <td>
-                <p class="flow--updated">
-                  Created on 16 Mar 2018
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p class="flow--status">
-                  Where should I look for live information for about the departure and arrival of my flight?
-                  <img src="./public/assets/12.svg" class="flow--img--edit ver-algn-middle" alt="">
-                </p>
-              </td>
-              <td>
-                <img src="./public/assets/7.svg" class="flow--img" alt="">
-              </td>
-              <td>
-                <p class="flow--updated">
-                  Created on 16 Mar 2018
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p class="flow--status">
-                  How do I view the status of flight on a partner airline?
-                </p>
-              </td>
-              <td>
-                <img src="./public/assets/8.svg" class="flow--img" alt="">
-              </td>
-              <td>
-                <p class="flow--updated">
-                  Created on 16 Mar 2018
-                </p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <!-- headings -->
-    </div>
-    <!-- flow ends -->
-  </div>
-  <!-- data container ends -->
-</div>
+  </section>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="./js/app.js"></script>
 </body>
 </html>

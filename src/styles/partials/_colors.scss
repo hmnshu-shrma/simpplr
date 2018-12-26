@@ -1,13 +1,14 @@
-$green:#01CC9B;
-$gray:#9B9B9B;
-$black:#000000;
-$gray_lt:#F6F6F6;
-$gray_heading:#333333;
-$blue:#4A90E2;
-$dark_blue:#112233;
-$green_lt:#EBF4FF;
-$gray_subHeading:#767376;
-$gray_caption:#595959;
-$label:#9E9E9E;
-$list_border:#F2F2F2;
-$font_list:#4A4A4A;
+$color_active:rgba(34, 34, 34, 0.8);
+$color_deactive:rgba(141, 141, 141, 0.61);
+$green:#19b491;
+$border__color:rgba(160, 160, 160, 0.25098039215686274);
+
+
+@mixin borderbottom(){
+  border-bottom:1px solid $border__color;
+}
+
+
+@mixin borderleft(){
+  border-left:1px solid $border__color;
+}
